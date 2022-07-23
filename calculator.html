@@ -1,0 +1,46 @@
+
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="calculator.css">
+        <script src="calculator.js"></script>
+   </head>
+    <body>
+        <table Border="2" class="table">
+            <caption>CALCULATOR</caption>
+            <tr>
+                <td colspan="3"><input type="text" id="res"></td>
+                <td id="1"><button onclick="fn9()">AC</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="show('9')" class="nine">9</button></td>
+                <td><button onclick="show('8')" class="eight">8</button></td>
+                <td><button onclick="show('7')">7</button></td>
+                <td><button onclick="show('+')">+</button></td>
+
+
+            </tr>
+            <tr>
+                <td><button onclick="show('6')">6</button></td>
+                <td><button onclick="show('5')">5</button></td>
+                <td><button onclick="show('4')">4</button></td>
+                <td><button onclick="show('*')">*</button></td>
+
+            </tr>
+            <tr>
+                <td><button onclick="show('3')">3</button></td>
+                <td><button onclick="show('2')">2</button></td>
+                <td><button onclick="show('1')">1</button></td>
+                <td><button onclick="show('-')">-</button></td>
+
+            </tr>
+            <tr>
+                <td><button onclick="show('0')">0</button></td>
+                <td colspan="2" text-align="center"><button onclick="cal()">=</button></td>
+                <td><button onclick="show('%')">%</button></td>
+
+            </tr>
+
+        </table>
+    </body>
+</html>
